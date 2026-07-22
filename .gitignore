@@ -1,0 +1,21 @@
+# ---- data (large, re-fetchable from Tushare) — never commit -----------------
+data/
+data_fullmkt/
+data_15m/
+*.parquet
+
+# ---- generated results (kept out of git; charts are curated in assets/) ------
+results/
+results_15m/
+
+# ---- python -----------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.output
+
+# ---- os / editor ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
