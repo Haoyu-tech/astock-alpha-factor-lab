@@ -1,5 +1,7 @@
 # A-Share Alpha Factor Lab · Alpha158 & 国泰君安 GTJA-191
 
+[Reproduction guide](docs/REPRODUCIBILITY.md) · [Code and artifact map](docs/REPOSITORY_MAP.md)
+
 从零构建 **Alpha158**（qlib）与 **国泰君安 Alpha-191** 两套因子库，在 A 股（Tushare Pro，2014–2026）上做完整的
 **有效性 / 相关性 / 市值·指数分组 / 分年趋势 / 持有期 / 单因子分层回测**，再叠加一套
 **LightGBM 走查（walk-forward）机器学习选股 + 组合权重优化**，并对比不同**股票池 × 调仓频率**。
